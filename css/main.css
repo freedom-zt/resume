@@ -1,4 +1,105 @@
+/* page1 */
+
+.page {
+    position: relative;
+}
+
 .main-title {
     text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.page1 span {
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.page1 span:nth-child(2) {
+    top: 300px;
+    left: 25%;
+}
+
+.page1 span:nth-child(2):after {
+    content: 'zt345564023@gmail.com';
+    display: none;
+}
+
+.page1 span:nth-child(2):hover .page1 span:nth-child(2):after {
+    content: 'zt345564023@gmail.com';
+    display: block;
+}
+
+.page1 span:nth-child(3) {
+    top: 300px;
+    left: 40%;
+}
+
+.page1 span:nth-child(4) {
+    top: 300px;
+    left: 55%;
+}
+
+.page1 span:nth-child(5) {
+    top: 300px;
+    left: 70%;
+}
+
+
+/* page2 */
+
+.page2 h2,
+.page3 h2 {
+    text-align: center;
     font-size: 50px;
+    margin: 50px 0;
+}
+
+.page2 strong,
+.page3 strong {
+    font-size: 40px;
+}
+
+.page2 p,
+.page3 p {
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.page3 span {
+    font-size: 20px;
+}
+
+.page5 strong {
+    font-size: 60px;
+}
+
+.page6 p b {
+    margin-left: -100px;
+}
+
+.page9 p {
+    font-size: 40px;
+}
+
+.page10 q {
+    font-size: 40px;
+}
+
+.page11 b {
+    font-size: 70px;
+}
+
+.page11 span {
+    font-size: 30px;
+}
+
+.page12 p {
+    font-size: 60px;
+}
+
+.page12 i {
+    font-size: 40px;
 }

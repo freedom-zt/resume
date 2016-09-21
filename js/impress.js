@@ -726,7 +726,7 @@
                     case 38: // Up
                         api.prev();
                         break;
-                    case 9: // Tab
+                        // case 9: // Tab
                     case 32: // Space
                     case 34: // Page down
                     case 39: // Right

@@ -9,8 +9,9 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="css/impress-demo.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="shortcut icon" href="Me.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="Me.ico" />
 </head>
 
 <body class="impress-not-supported">
@@ -19,48 +20,68 @@
         <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
     </div>
     <div id="impress">
-        <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <div id="bored" class="step slide page1" data-x="-1000" data-y="-1500">
             <h1 class="main-title">个人简历</h1>
-            <q><b>bored</b> with all those slides-based presentations?</q>
+            <span class="icon-mail-envelope-closed"></span>
+            <span class="icon-github"></span>
+            <span class="icon-wechat"></span>
+            <span class="icon-qq"></span>
+            <!-- <div class="page1-pic"></div> -->
         </div>
-        <div class="step slide" data-x="0" data-y="-1500">
-            <q>Don’t you think that presentations given <strong>in modern browsers</strong> shouldn’t <strong>copy the limits</strong> of ‘classic’ slide decks?</q>
+        <div class="step slide page2" data-x="0" data-y="-1500">
+            <h2>基本信息一</h2>
+            <p>姓名&nbsp;: &nbsp;<strong> 张 彤 </strong></p>
+            <p>性别&nbsp;:&nbsp;男</p>
+            <p>籍贯&nbsp;: &nbsp;山西省</p>
+            <p>年龄&nbsp;: &nbsp;25岁</p>
+            <p>毕业院校&nbsp;:&nbsp;天津电子信息学院</p>
+            <p>所学专业&nbsp;:&nbsp;计算机应用技术</p>
         </div>
-        <div class="step slide" data-x="1000" data-y="-1500">
-            <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+        <div class="step slide page3" data-x="1000" data-y="-1500">
+            <h2>基本信息二</h2>
+            <p>职业&nbsp;:&nbsp;前端程序猿<span>&nbsp;(感觉比前端工程师一词亲切...)</span></p>
+            <p>工作经历&nbsp;:&nbsp;在深圳一家互联网公司从事PC端和手机端的Web前端开发</p>
+            <p>工作年限&nbsp;:&nbsp;已有两年的敲代码经验</p>
+            <p>求职意向&nbsp;:&nbsp;希望帝都的互联网公司可以收留</p>
         </div>
         <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-            <span class="try">then you should try</span>
-            <h1>impress.js<sup>*</sup></h1>
-            <span class="footnote"><sup>*</sup> no rhyme intended</span>
+            <span class="try">开发技能:</span>
+            <h1>Javascript<sup>*</sup></h1>
+            <span class="footnote"><sup>*</sup>进行原生的DOM & BOM操作</span>
         </div>
-        <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-            <p>It’s a <strong>presentation tool</strong>
-                <br/> inspired by the idea behind <a href="http://prezi.com">prezi.com</a>
-                <br/> and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+        <div id="its" class="step page5" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+            <p>能够熟练运用 <strong>HTML5&CSS3</strong>
+                <br/> 还原视觉设计，并兼容业界承认的主流浏览器;
+                <br/> 书写语义合理，结构清晰，易维护的HTML结构。</p>
         </div>
-        <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-            <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+        <div id="big" class="step page6" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+            <p>熟练使用 <b>Jquery</b>
+                <br>并研究过其源码</p>
         </div>
-        <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-            <p>and <b>tiny</b> ideas</p>
+        <div id="tiny" class="step page7" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+            <p>and <b>Zepto.js</b>&<b>jqueryUI</b></p>
         </div>
-        <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-            <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+        <div id="ing" class="step page8" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+            <p>能够熟练使用 <b class="positioning">AJax</b>, <b class="rotating">Jsonp</b> and <b class="scaling">Template引擎</b> 与服务器做数据交互
+            </p>
         </div>
-        <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-            <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+        <div id="imagination" class="step page9" data-x="6700" data-y="-300" data-scale="6">
+            <p>使用过
+                <br> <b class="imagination">Bootstrap</b>框架
+                <br>进行<b>响应式</b> 页面开发</p>
         </div>
-        <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-            <p>want to know more?</p>
-            <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+        <div id="source" class="step page10" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+            <p>了解Angular、React、Vue等MVC/MVVM思想的流行框架</p>
+            <p>了解npm,Gulp,git等前端工具的使用
+            </p>
         </div>
-        <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-            <p>one more thing...</p>
+        <div id="one-more-thing" class="step page11" data-x="6000" data-y="4000" data-scale="2">
+            <p>目前正在学习<b>Node.js</b>和<b>ES6</b> <span>ing...</span></p>
         </div>
-        <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-            <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-            <span class="footnote">* beat that, prezi ;)</span>
+        <div id="its-in-3d" class="step page12" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+            <p><span class="have">谢</span> <span class="you">谢</span> <span class="noticed">观</span> <span class="its">看</span>
+                <span class="in"></span> <b><sup>!</sup></b></p>
+            <span class="footnote icon-mail-envelope-closed"> zt345564023@gmail.com</span><i>欢迎打扰</i>
         </div>
         <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
         </div>
