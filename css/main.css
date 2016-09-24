@@ -116,6 +116,30 @@ i {
 }
  */
 
+.email:hover {
+    transform: scale(1.2);
+    color: #F9E910;
+}
+
+.github:hover {
+    transform: scale(1.2);
+    color: #000;
+}
+
+.wechat:hover {
+    transform: scale(1.2);
+    color: #00FE15;
+}
+
+.qq:hover {
+    transform: scale(1.2);
+    color: #185DFC;
+}
+
+.icon-size {
+    transition: all .25s;
+}
+
 .icon-size:hover .show {
     display: block;
 }
