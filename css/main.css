@@ -11,34 +11,40 @@
     margin-top: 100px;
 }
 
-.page1 span {
+.page1 {
+    position: relative;
+}
+
+.page1 a {
     position: absolute;
     font-size: 40px;
     cursor: pointer;
 }
 
-.page1 span:nth-child(2) {
-    top: 300px;
+.page1 a:nth-child(2) {
+    top: 280px;
     left: 25%;
 }
 
-.page1 span:nth-child(2):after {
+
+/* .page1 a:nth-child(2):after {
     content: 'zt345564023@gmail.com';
     display: none;
 }
+ */
 
-.page1 span:nth-child(3) {
-    top: 300px;
+.page1 a:nth-child(3) {
+    top: 280px;
     left: 40%;
 }
 
-.page1 span:nth-child(4) {
-    top: 300px;
+.page1 a:nth-child(4) {
+    top: 280px;
     left: 55%;
 }
 
-.page1 span:nth-child(5) {
-    top: 300px;
+.page1 a:nth-child(5) {
+    top: 280px;
     left: 70%;
 }
 
@@ -97,4 +103,56 @@
 
 .page12 i {
     font-size: 40px;
+}
+
+i {
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+/* .icon-size {
+    position: absolute;
+}
+ */
+
+.icon-size:hover .show {
+    display: block;
+}
+
+.show {
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    left: -80px;
+    top: 60px;
+    margin-left: 5px;
+    width: 200px;
+    height: 36px;
+    background-color: #666;
+    border-radius: 5px;
+    line-height: 36px;
+    font-size: 20px;
+    display: none;
+    /* box-shadow: 0px 0px 2px rgba(50, 50, 50, .5); */
+    z-index: 10;
+    color: #fff;
+    /* padding: 0px 20px; */
+    font-family: "microsoft yahei";
+    text-align: center;
+}
+
+.show:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    top: -3px;
+    width: 6px;
+    height: 6px;
+    transform: rotateZ(45deg);
+    z-index: -1;
+    border-top-left-radius: 1px;
+    background-color: #666;
 }
